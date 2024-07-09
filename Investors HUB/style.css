@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  display: flex;
+  background-image: url("images/investor.head.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header_img {
+  width: 100%;
+  display: block;
+}
+
+.header_logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+.header_items {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  text-align: right;
+  z-index: 20;
+}
+
+.header_items ul {
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header_items li{
+  list-style:none;
+  display: inline;
+}
+
+.header_items a {
+  text-decoration: none;
+  color: white;  
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.header-img img {
+  display: block;
+  width: 100%;
+}
+
+.Greeting_section {
+  display: flex;
+  padding: 50px;
+}
+
+span {
+  display: block;
+  font-size: 15px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.greeting_text p {
+  font-size: 16px;
+}
+
+.Greeting_heading,
+.Greeting_texts {
+  width: 50%;
+}
+
+.service_section {
+  display: flex;
+  padding: 50px;
+}
+
+.service_img {
+  height: 350px;
+  width: 528px;
+
+}
+
+.service_content {
+  width: 50%;
+
+}
+
+.content_link a {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  color:black;
+}
+
+.content_link {
+  padding: 50px;
+}
+
+.service_content {
+  font-size: 16px;
+  padding: 100px;
+}
+
+.project_section {
+  display: flex;
+}
+
+hr {
+  height: 2px;
+  width: 120px;
+  text-align: center;
+}
+
+.fees_link a {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  color:black;
+}
+
+.fees_link {
+  text-align: center;
+  padding: 50px;
+}
+
+.project_list {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.information ul {
+  display: flex;
+}
+
+.information li {
+display: block;
+}
